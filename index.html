@@ -1,0 +1,48 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content='Explore on my one of the favorite food'
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form102</title>
+</head><style>p {font-size: 24px;}</style>
+<body>
+    <center>
+    <h1>Favorite Food</h1></center>
+    <img src="c:\Users\SHS-ComLab\Downloads\Sinigang-sa-Pakwan-Wide.webp" alt="Sinigang" width="500" height="300" style="float: right;" border="2">
+    <br><br><br>
+        <p>Sinigang is a classic Filipino soup characterized by its sour and savory medley of flavors. It's popular comfort food in the Philippines,
+            usually served on its own or paired with steamed rice on rainy days to ward off the cold.</p>
+            <center>
+            <iframe width="650" height="350" src="https://www.youtube.com/embed/VXcVHCy4ngQ?si=OoYAMed21PkezgO1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-top: 200;"></iframe></center>
+            <br><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" cols="50" value="This is one of my favorite food because it feels like heaven beceause this food for me is so delicous.">This is one of my favorite food because it feels like heaven beceause this food for me is so delicous.</textarea>
+        <br><br><br>
+        <label for="NameofFood">Name of Food:</label>
+        <input type="text" id="food" name="foodname" value="Sinigang">
+        <br><br><br>
+        <label for="YourFavFood">Your Fav. Food:</label>
+        <select id="Food" name="Food">
+            <option value="Sinigang">Sinigang</option>
+            <option value="Adobo">Adobo</option>
+            <option value="Pakbet">Pakbet</option>
+        </select>
+        <br><br><br>
+        <label for="No.ofMyFavFood">No. of my Fav. Food</label>
+        <input type="number" name="food" min="1" max="10" placeholder="00">
+        <br><br><br>
+        <label for="originate">Originate:</label>
+        <input type="text" id="Philippines" name="Philippines" value="PHILIPPINES" readonly>
+        <br><br><br>
+        <label for="address">Visit us!</label>
+        <input type="text" name="address" id="address" value="105 TANZANG LUMA 1" disabled>
+        <br><br>    
+        <label for="contact">Contact</label>
+        <input type="text" id="contact" name="contact" value="0908-115-9707" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" disabled>
+        <br><br><br>
+        <center>
+        <button type="button" onclick="alert('Thank you for visiting my site!')" style="width: 200; height: 100;">Click Here</button>
+        </center>
+</body>
+</html>
